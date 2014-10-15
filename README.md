@@ -43,6 +43,12 @@ Main features
     * Vertical, Horizontal, Grid containers.
     * Scrollable content display
 
+Supported Versions
+-------------------
+
+Python 2.7, 3.2, 3.3 and 3.4.
+
+
 Installation
 --------------
 
