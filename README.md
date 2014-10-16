@@ -46,7 +46,17 @@ Main features
 Supported Versions
 -------------------
 
-Python 2.7, 3.2, 3.3 and 3.4.
+* Python:
+
+    * 2.7
+    * 3.2
+    * 3.3
+    * 3.4
+
+
+* Pyglet:
+
+    * \>= 1.2
 
 
 Installation
