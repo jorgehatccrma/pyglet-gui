@@ -56,6 +56,11 @@ class Option(Controller):
         self._selector.deselect()
         self._selector.select(self._option_name)
 
+    @property
+    def selector(self):
+        return self._selector
+
+
 
 class Selector:
     def __init__(self, options, labels=None, on_select=None, selected=None):

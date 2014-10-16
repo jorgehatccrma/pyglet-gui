@@ -23,13 +23,13 @@ class OptionButton(Option, Button):
 
     def on_mouse_press(self, x, y, button, modifiers):
         self.select()
-        self.parent.layout()
+        self.selector.layout()
         return True
 
     def on_key_press(self, symbol, modifiers):
         if symbol == pyglet.window.key.ENTER:
             self.select()
-            self.parent.layout()
+            self.selector.layout()
             return True
 
 
