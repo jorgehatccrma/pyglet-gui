@@ -163,7 +163,7 @@ class TextInput(FocusMixin, Viewer):
     def set_text(self, text):
         self._document.text = text
         if self._caret:
-            self._caret.mark = self._caret.position = len(self._document.text)
+            self._caret.position = self._caret.mark = len(self._document.text)
         elif self._label:
             self._label.text = text
 
